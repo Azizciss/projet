@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="app.css"> 
+    <title>Jeu Random</title>
+  </head>
+
+  <body>
+    <h1>Jeu Random</h1>
+    <h3>Choisir un nombre aléatoire compris entre 1 et 100 puis appuyer sur Entrer
+        Essayer de trouver la bonne réponse si tel est le cas vous avez gagner. Sinon vous avez rater le jeu
+    </h3>
+
+    <div class="form">
+      <label for="entrer">Enter un nombre: </label>
+      <input type="text" id="entrer" class="entrer">
+      <input type="submit" value="Entrer" class="envoyer">
+    </div>
+
+    <div class="resultParas">
+      <p class="nombre"></p>
+      <p class="lastResult"></p>
+      <p class="consigne"></p>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+  </body>
+</html>
